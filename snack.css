@@ -1,0 +1,31 @@
+.game-board {
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+.player {
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.snack {
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.obstacle {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+}
